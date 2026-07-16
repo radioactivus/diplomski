@@ -131,3 +131,63 @@ This gives you a paper that doesn't just say "AI helps productivity" — it syst
 
 
 
+
+
+
+
+
+
+I realy liked the Taxonomy of AI, and I switched focus, now I would like to change the topic of my paper> I want to shift the focus more to finacnial ai. So the paper would look like this: 1st part general clasification of all AIs, like it was done in taxonomy, then, 2nd part more focus on what is used in finacial word, what ai tools they find interesting. So now I have 1st part, can you suggest some material on which I can base 2nd part?
+
+
+
+
+Here's a structured set of sources for **Part 2: AI in the Financial World**, organized by application domain. Each maps naturally back to the AI taxonomy you'll establish in Part 1.
+
+---
+
+## 📚 Sources for Part 2: AI Applications in Finance
+
+### 🏛️ Comprehensive / Umbrella Sources (Start Here)
+
+1. **Vuković, Dekpo-Adza & Matović (2025)** — *"AI Integration in Financial Services: A Systematic Review of Trends and Regulatory Challenges,"* Humanities and Social Sciences Communications (Nature). Scientometric review covering **1989–2024**, mapping AI applications across credit scoring, fraud detection, robo-advisory, digital insurance, and financial inclusion. Also covers XAI (explainable AI) and regulatory frameworks. **This is your single best anchor paper for Part 2.** [(Nature)](https://www.nature.com/articles/s41599-025-04850-8)
+
+2. **IIF–EY Annual Survey (2024)** — Survey of **56 financial institutions** globally. Key findings: 100% increased AI/ML investment in 2024; 50% increased by >25%. Covers governance, GenAI adoption, third-party models, regulatory engagement. [(IIF)](https://www.iif.com/Publications/ID/5992/IIF-EY-Annual-Survey-Report-on-AIML-Use-in-Financial-Services)
+
+3. **Statista: AI in Finance** — Industry statistics: **$45B AI spending** in financial sector (2024), GenAI adoption at 61%, highest adoption in risk/legal/compliance functions, ~70% of firms report AI-driven revenue increases. [(Statista)](https://www.statista.com/topics/7083/artificial-intelligence-ai-in-finance/)
+
+---
+
+### 📊 By Financial AI Application Domain
+
+#### 1. Algorithmic Trading & Market Prediction (Deep Learning, RL)
+- **Bhuiyan et al. (2025)** — *"Deep Learning for Algorithmic Trading: A Systematic Review of Predictive Models and Optimization Strategies,"* Array (Elsevier). Covers RNN, LSTM, CNN, hybrid models for stock price/volatility prediction. [(ScienceDirect)](https://www.sciencedirect.com/science/article/pii/S2590005625000177)
+- **Jukl & Lansky (2025)** — *"Systematic Review on Algorithmic Trading,"* Acta Informatica Pragensia. Screened **1,567 articles**, selected 208. Found ML used in 50% of studies, sentiment analysis in 20%. Focus areas: equities (35%), forex (30%), HFT (30%). [(AIP)](http://aip.vse.cz/artkey/aip-202503-0013_systematic-review-on-algorithmic-trading.php)
+
+#### 2. NLP, Sentiment Analysis & Financial Text Processing
+- **Du, Zhao, Mao, Xing & Cambria (2025)** — *"Natural Language Processing in Finance: A Survey,"* Information Fusion (Elsevier). Covers **10 major NLP applications**: sentiment analysis, financial forecasting, portfolio management, Q&A/chatbots, risk management, regulatory compliance, ESG/sustainable finance, XAI, and digital assets. 273 references. [(ScienceDirect)](https://www.sciencedirect.com/science/article/abs/pii/S1566253524005335)
+
+#### 3. Credit Scoring & Fraud Detection (ML, Anomaly Detection)
+- Covered extensively in **Vuković et al. (2025)** above — dedicated sections on ML-driven credit scoring models, anomaly detection for fraud, and the tension between model accuracy and explainability (XAI).
+
+#### 4. Robo-Advisory & Wealth Management (Optimization, MPT, AI Agents)
+- **Althobaiti et al. (2025)** — *"Trusting the Machine: Assessing the Rewards, Risks and Regulations of AI in Robo-Advisory Platforms,"* OxJournal. Covers MPT + Black-Litterman models, tax-loss harvesting, behavioural bias correction, Sharpe ratio comparisons (robo: 0.75 vs self-managed: 0.45), and regulatory analysis (MiFID vs US). [(OxJournal)](https://www.oxjournal.org/trusting-the-machine-ai-in-robo-advisory-platforms/)
+- **Condor Capital Robo Report (Q2 2025)** — Industry data: robo-advisors manage **~$1.2 trillion** globally (2024). Tracks Vanguard ($365B), Schwab ($89.5B), Betterment ($56.4B), Wealthfront ($35.3B). Documents Goldman Sachs and JPMorgan exiting robo-advice. [(Condor Capital)](https://www.condorcapital.com/the-robo-report/reports/2024-aum-growth-q2-2025/)
+
+---
+
+### 🗂️ Suggested Structure for Part 2
+
+| Section | AI Type (links to Part 1 taxonomy) | Key Sources |
+|---|---|---|
+| **2.1 Overview: AI adoption in finance** | All types | IIF–EY Survey, Statista, Vuković et al. |
+| **2.2 Algorithmic Trading** | Deep Learning (LSTM, CNN), Reinforcement Learning | Bhuiyan et al., Jukl & Lansky |
+| **2.3 NLP & Sentiment Analysis** | NLP, Transformer/LLM models | Du et al. (2025) |
+| **2.4 Credit Scoring & Fraud Detection** | Supervised ML, Anomaly Detection, XAI | Vuković et al. |
+| **2.5 Robo-Advisory & Wealth Management** | Optimization algorithms, MPT, AI agents | Althobaiti et al., Condor Capital |
+| **2.6 Regulatory Compliance & Risk** | NLP (RegTech), Rule-based systems | Vuković et al., Du et al. |
+| **2.7 Challenges: XAI, Ethics, Regulation** | Cross-cutting | Vuković et al., IIF–EY |
+
+This structure lets you cleanly show: *"Here is the AI taxonomy (Part 1) → here is how each type maps to specific financial use cases (Part 2)."*
+
+
