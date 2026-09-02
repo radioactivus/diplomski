@@ -95,4 +95,51 @@ Evo kompletnog spiska literature za sve tri teme:
 
 ---
 
-Ovo je solidna baza od 23 izvora. Ako hoćeš, mogu odmah početi da pišem poglavlja na osnovu ove literature.
+- Du et al. (2025) — Natural Language Processing in Finance: A Survey (Information Fusion)
+  https://linkinghub.elsevier.com/retrieve/pii/S1566253524005335
+- Araci (2019) — FinBERT: Financial Sentiment Analysis with Pre-trained Language Models (arXiv)
+  https://arxiv.org/abs/1908.10063
+- Huang, Wang, Yang (2023) — FinBERT: A Large Language Model for Extracting Information from Financial Text (Contemporary Accounting Research)
+  https://doi.org/10.1111/1911-3846.12832
+- Malo et al. (2014) — Good debt or bad debt: Detecting semantic orientations in economic texts (JASIST)
+  https://doi.org/10.1002/asi.23062
+- Loughran & McDonald (2011) — When Is a Liability Not a Liability? (Journal of Finance)
+  https://doi.org/10.1111/j.1540-6261.2010.01625.x
+- Xing et al. (2020) — Financial Sentiment Analysis: Common Mistakes and Silver Bullets (COLING, ACL)
+  https://aclanthology.org/2020.coling-main.85/
+
+- Hambly, Xu, Yang (2023) — Recent Advances in Reinforcement Learning in Finance (arXiv)
+  https://arxiv.org/abs/2112.04553
+- Liu et al. (2021) — FinRL: Deep RL Framework to Automate Trading (ACM ICAIF)
+  https://doi.org/10.1145/3490354.3494366
+- FinRL preprint (arXiv)
+  https://arxiv.org/abs/2011.09607
+- Buehler et al. (2019) — Deep Hedging (Quantitative Finance)
+  https://doi.org/10.1080/14697688.2019.1571683
+- Wang et al. (2021) — DeepTrader (AAAI)
+  https://doi.org/10.1609/aaai.v35i1.16117
+- Kabbani & Duman (2022) — Deep RL for Trading Automation (IEEE Access)
+  https://doi.org/10.1109/ACCESS.2022.3204042
+- Koratamaddi et al. (2021) — Market Sentiment-Aware DRL for Portfolio Allocation
+  https://doi.org/10.1016/j.jestch.2020.11.011
+- Xiong et al. (2018) — Practical Deep RL for Stock Trading (arXiv)
+  https://arxiv.org/abs/1811.07522
+
+- Nie et al. (2024) — A Survey of Large Language Models for Financial Applications (arXiv)
+  https://arxiv.org/abs/2406.11903
+- BloombergGPT (2023) — A Large Language Model for Finance (arXiv)
+  https://arxiv.org/abs/2303.17564
+- FinGPT (2023) — Open-Source Financial Large Language Models (arXiv)
+  https://arxiv.org/abs/2306.06031
+- Lopez-Lira & Tang (2023) — Can ChatGPT Forecast Stock Price Movements? (arXiv)
+  https://arxiv.org/abs/2304.07619
+- Lopez-Lira & Tang (SSRN entry)
+  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4412788
+- Kim, Muhn, Nikolaev (2024) — Financial Statement Analysis with LLMs (arXiv)
+  https://arxiv.org/abs/2407.17866
+- Dong, Stratopoulos, Wang (2024) — A Scoping Review of ChatGPT in Accounting and Finance (ScienceDirect)
+  https://www.sciencedirect.com/science/article/pii/S1467089524000484
+- Hagos, Battle, Rawat (2024) — Recent Advances in Generative AI and LLMs (arXiv)
+  https://arxiv.org/abs/2407.14962
+- Håkansson & Phillips-Wren (2024) — Generative AI and LLMs: Benefits, Drawbacks, Future (Procedia Computer Science)
+  https://www.sciencedirect.com/science/article/pii/S1877050924027492
