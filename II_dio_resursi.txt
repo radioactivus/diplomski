@@ -1,0 +1,98 @@
+Evo kompletnog spiska literature za sve tri teme:
+
+---
+
+### 1. NLP u finansijama
+
+**Pregledni radovi (Surveys):**
+
+1. **Du, K., Zhao, Y., Mao, R., Xing, F. & Cambria, E. (2025).** "Natural Language Processing in Finance: A Survey." *Information Fusion*, Vol. 115, 102755. Elsevier.
+   - DOI: 10.1016/j.inffus.2024.102755
+   - Najsveobuhvatniji pregled — 10 ključnih primjena NLP-a u finansijama (sentiment, forecasting, portfolijo, chatbotovi, rizik, compliance, ESG, XAI, digitalna imovina)
+
+**Ključni modeli:**
+
+2. **Araci, D. (2019).** "FinBERT: Financial Sentiment Analysis with Pre-trained Language Models." *arXiv:1908.10063*.
+   - Fundamentalan model — BERT prilagođen finansijskom jeziku; nadmašuje sve prethodne metode na datasetu Financial PhraseBank
+
+3. **Huang, A. H., Wang, H. & Yang, Y. (2023).** "FinBERT: A Large Language Model for Extracting Information from Financial Text." *Contemporary Accounting Research*, 40(2), 806–841.
+   - Druga varijanta FinBERT-a, fokusirana na ekstrakciju informacija iz 10-K filingova i earning callova
+
+4. **Malo, P., Sinha, A., Korhonen, P., Wallenius, J. & Takala, P. (2014).** "Good Debt or Bad Debt: Detecting Semantic Orientations in Economic Texts." *Journal of the Association for Information Science and Technology*, 65(4), 782–796.
+   - Financial PhraseBank dataset — standard za evaluaciju sentiment modela u finansijama
+
+5. **Loughran, T. & McDonald, B. (2011).** "When Is a Liability Not a Liability? Textual Analysis, Dictionaries, and 10-Ks." *The Journal of Finance*, 66(1), 35–65.
+   - Klasičan rad — Loughran-McDonald rječnik finansijskog sentimenta; i dalje široko korišten kao baseline
+
+**Specifične primjene:**
+
+6. **Man, X., Luo, T. & Lin, J. (2019).** "Financial Sentiment Analysis: An Investigation into Common Mistakes and Silver Bullets." *Proceedings of the 28th International Conference on Computational Linguistics (COLING)*.
+
+7. **Chen, J., Chen, D., He, X., Li, X. & Liu, J. (2024).** "ChatGPT and Corporate Earnings: Unlocking the Future of Financial Analysis." *SSRN Working Paper*.
+   - Kako GPT-4 analizira earning calls i predviđa kretanja cijena akcija
+
+---
+
+### 2. Reinforcement Learning u finansijama
+
+**Pregledni radovi (Surveys):**
+
+8. **Hoque, M. R., Ferdaus, M. M. & Hassan, M. K. (2025).** "Reinforcement Learning in Financial Decision Making: A Systematic Review of Performance, Challenges, and Implementation Strategies." *arXiv:2512.10913*.
+   - Najnoviji sistematski pregled — 2.847 publikacija, 127 uključeno; pokriva portfolio optimizaciju, algoritamsko trgovanje, hedging, optimalno izvršenje naloga
+
+9. **Hambly, B., Xu, R. & Yang, H. (2023).** "Recent Advances in Reinforcement Learning in Finance." *Mathematical Finance*, 33(3), 437–503.
+   - Matematički rigorozan pregled; pokriva optimalno izvršenje, portfolio alokaciju, market making, pricing opcija
+
+10. **Wan, R., Gao, Y., Song, R. et al. (2024).** "Reinforcement Learning for Quantitative Finance." *arXiv:2411.12746*.
+    - Fokus na portfolio optimizaciju (banditi, DQN, policy gradient), optimalno izvršenje i tržišno pravljenje
+
+**Ključni radovi i alati:**
+
+11. **Liu, X. Y., Yang, H., Gao, J. & Wang, C. D. (2021).** "FinRL: Deep Reinforcement Learning Framework to Automate Trading in Quantitative Finance." *ACM ICAIF 2021*.
+    - Open-source framework za RL u kvantitativnim finansijama; koristi PPO, A2C, DDPG za portfolio management
+
+12. **Buehler, H., Gonon, L., Teichmann, J. & Wood, B. (2019).** "Deep Hedging." *Quantitative Finance*, 19(8), 1271–1291.
+    - Seminalan rad — RL za hedging derivata u nepotpunim tržištima; zaobilazi Black-Scholes pretpostavke
+
+13. **Wang, Z., Huang, B., Tu, S. & Liu, Z. (2021).** "DeepTrader: A Deep Reinforcement Learning Approach for Risk-Return Balanced Portfolio Management with Market Conditions Embedding." *Proceedings of AAAI*, 35(1), 643–650.
+    - Kombinuje predikciju tržišnih uslova s RL za dinamičku alokaciju portfolija
+
+14. **Koratamaddi, P., Wadhwani, K., Gupta, M. & Sanjeevi, S. G. (2021).** "Market Sentiment-Aware Deep Reinforcement Learning Approach for Stock Portfolio Allocation." *Engineering Science and Technology*, 24(4), 848–859.
+    - Obogaćuje RL state prostor sentiment skorovima iz vijesti i tvitova
+
+15. **Kabbani, T. & Duman, E. (2022).** "Deep Reinforcement Learning Approach for Trading Automation in the Stock Market." *IEEE Access*, 10, 93564–93574.
+
+---
+
+### 3. Generativni AI / LLM u finansijama
+
+**Pregledni radovi (Surveys):**
+
+16. **Nie, Y., Kong, Y., Dong, X., Mulvey, J. M., Poor, H. V., Wen, Q. & Zohren, S. (2024).** "A Survey of Large Language Models for Financial Applications: Progress, Prospects and Challenges." *arXiv:2406.11903*.
+    - Najsveobuhvatniji pregled — pokriva lingvističke zadatke, sentiment, vremenske serije, finansijsko rezonovanje, agent-based modele
+
+17. **Dong, M. M., Stratopoulos, T. C. & Wang, V. X. (2024).** "A Scoping Review of ChatGPT Research in Accounting and Finance." *International Journal of Accounting Information Systems*, 55(C). Elsevier.
+
+**Ključni modeli:**
+
+18. **Wu, S., Irsoy, O., Lu, S. et al. (2023).** "BloombergGPT: A Large Language Model for Finance." *arXiv:2303.17564*.
+    - 50 milijardi parametara; treniran na 363 milijarde tokena Bloombergovih finansijskih podataka + 345B opštih; nadmašuje GPT na finansijskim zadacima
+
+19. **Yang, H., Liu, X. Y. & Wang, C. D. (2023).** "FinGPT: Open-Source Financial Large Language Models." *arXiv:2306.06031*.
+    - Open-source alternativa BloombergGPT-u; FinGPT treniran za ~$65 vs $2.67M za BloombergGPT; koristi RLHF i LoRA za fine-tuning
+
+20. **Caillaut, G. et al. (2025).** "The LLM Pro Finance Suite: Multilingual Large Language Models for Financial Applications." *arXiv:2511.08621*.
+
+**Specifične primjene:**
+
+21. **Lopez-Lira, A. & Tang, Y. (2023).** "Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models." *SSRN Working Paper*.
+    - Demonstrira da ChatGPT sentiment signali predviđaju sljedećednevne prinose akcija bolje od tradicionalnih modela
+
+22. **Kim, A. G., Muhn, M. & Nikolaev, V. (2024).** "Financial Statement Analysis with Large Language Models." *Chicago Booth Research Paper*.
+    - GPT-4 analizira finansijske izvještaje i nadmašuje ljudske analitičare u predviđanju smjera budućih zarada
+
+23. **Voronina, A. et al. (2025).** "Generative AI-enhanced Sector-based Investment Portfolio Construction." *arXiv:2512.24526*.
+
+---
+
+Ovo je solidna baza od 23 izvora. Ako hoćeš, mogu odmah početi da pišem poglavlja na osnovu ove literature.
