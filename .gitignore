@@ -1,0 +1,19 @@
+# Trained model stored externally
+models/*.zip
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.venv/
+venv/
+env/
+*.env
+
+# Operating-system files
+.DS_Store
+Thumbs.db

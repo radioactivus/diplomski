@@ -1,0 +1,110 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "dlt-sentiment-news",
+  "dataset_size": 22671100,
+  "description": "",
+  "download_size": 12118601,
+  "features": {
+    "timestamp": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "description": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "market_direction": {
+      "names": [
+        "neutral",
+        "bearish",
+        "bullish"
+      ],
+      "_type": "ClassLabel"
+    },
+    "engagement_quality": {
+      "names": [
+        "neutral",
+        "liked",
+        "disliked"
+      ],
+      "_type": "ClassLabel"
+    },
+    "content_characteristics": {
+      "names": [
+        "neutral",
+        "important",
+        "lol"
+      ],
+      "_type": "ClassLabel"
+    },
+    "vote_counts": {
+      "bearish": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "bullish": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "liked": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "disliked": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "important": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "lol": {
+        "dtype": "int32",
+        "_type": "Value"
+      }
+    },
+    "total_votes": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "source_url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "total_tokens": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 34789701,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 22671100,
+      "num_examples": 23301,
+      "dataset_name": "dlt-sentiment-news"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
