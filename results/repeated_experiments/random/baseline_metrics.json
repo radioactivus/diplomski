@@ -1,0 +1,60 @@
+{
+  "split": "random",
+  "seed": "baseline",
+  "model": "original_finbert",
+  "accuracy": 0.40043763676148797,
+  "precision_macro": 0.42186383153780893,
+  "recall_macro": 0.41019346059068007,
+  "f1_macro": 0.41491570908150804,
+  "weighted_f1": 0.40239268171378306,
+  "classification_report": {
+    "bullish": {
+      "precision": 0.34831460674157305,
+      "recall": 0.389937106918239,
+      "f1-score": 0.36795252225519287,
+      "support": 159.0
+    },
+    "bearish": {
+      "precision": 0.5368421052631579,
+      "recall": 0.4722222222222222,
+      "f1-score": 0.5024630541871922,
+      "support": 108.0
+    },
+    "neutral": {
+      "precision": 0.3804347826086957,
+      "recall": 0.3684210526315789,
+      "f1-score": 0.37433155080213903,
+      "support": 190.0
+    },
+    "accuracy": 0.40043763676148797,
+    "macro avg": {
+      "precision": 0.42186383153780893,
+      "recall": 0.41019346059068007,
+      "f1-score": 0.41491570908150804,
+      "support": 457.0
+    },
+    "weighted avg": {
+      "precision": 0.4062222725076222,
+      "recall": 0.40043763676148797,
+      "f1-score": 0.40239268171378306,
+      "support": 457.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      62,
+      19,
+      78
+    ],
+    [
+      21,
+      51,
+      36
+    ],
+    [
+      95,
+      25,
+      70
+    ]
+  ]
+}

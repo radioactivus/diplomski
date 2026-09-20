@@ -1,5 +1,5 @@
-# Trained model stored externally
-models/*.zip
+# Trained model files (keep large checkpoints outside Git)
+models/
 
 # Python cache and compiled files
 __pycache__/
@@ -12,8 +12,29 @@ __pycache__/
 .venv/
 venv/
 env/
-*.env
+.env
+.env.*
+!.env.example
 
 # Operating-system files
 .DS_Store
 Thumbs.db
+
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.xdv

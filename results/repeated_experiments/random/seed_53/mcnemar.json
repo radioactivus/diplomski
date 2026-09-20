@@ -1,0 +1,7 @@
+{
+  "split": "random",
+  "seed": 53,
+  "original_only_correct": 57,
+  "fine_tuned_only_correct": 141,
+  "exact_mcnemar_p_value": 2.120411479319343e-09
+}

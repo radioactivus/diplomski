@@ -1,0 +1,19 @@
+split,subset,label,count
+Random split,Train,Bullish,1275
+Random split,Train,Bearish,904
+Random split,Train,Neutral,1615
+Random split,Validation,Bullish,169
+Random split,Validation,Bearish,110
+Random split,Validation,Neutral,191
+Random split,Test,Bullish,159
+Random split,Test,Bearish,108
+Random split,Test,Neutral,190
+Chronological split,Train,Bullish,1361
+Chronological split,Train,Bearish,850
+Chronological split,Train,Neutral,1565
+Chronological split,Validation,Bullish,173
+Chronological split,Validation,Bearish,130
+Chronological split,Validation,Neutral,169
+Chronological split,Test,Bullish,69
+Chronological split,Test,Bearish,142
+Chronological split,Test,Neutral,262

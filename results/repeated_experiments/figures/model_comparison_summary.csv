@@ -1,0 +1,7 @@
+split,model,mean_f1_macro,std_f1_macro
+random,original_finbert,0.41491570908150804,0.0
+random,tfidf_logistic_regression,0.5297723444151412,0.0
+random,fine_tuned,0.5761260007905837,0.008937383897469231
+chronological,original_finbert,0.36880946931949293,0.0
+chronological,tfidf_logistic_regression,0.41086761278733963,0.0
+chronological,fine_tuned,0.42650209737619293,0.018116291055540325

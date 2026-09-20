@@ -1,0 +1,7 @@
+{
+  "split": "chronological",
+  "seed": 59,
+  "original_only_correct": 59,
+  "fine_tuned_only_correct": 96,
+  "exact_mcnemar_p_value": 0.0036930366149680186
+}
