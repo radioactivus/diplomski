@@ -1,12 +1,12 @@
-# Fine-tuning FinBERT modela za klasifikaciju sentimenta Ethereum vijesti
+# Fine-tuning FinBERT modela za klasifikaciju tržišnog pravca Ethereum vijesti
 
-Projekat ispituje da li dodatna obuka finansijskog jezičkog modela FinBERT na vijestima povezanim sa Ethereumom poboljšava klasifikaciju tržišnog sentimenta.
+Projekat ispituje da li dodatna obuka finansijskog jezičkog modela FinBERT na vijestima povezanim sa Ethereumom poboljšava klasifikaciju tržišnog pravca. Cilj nije klasična procjena pozitivnog ili negativnog sentimenta samog teksta: koriste se oznake `market_direction`, izvedene iz glasova korisnika za vijesti.
 
-Model klasifikuje vijesti u tri klase:
+Model klasifikuje vijesti u tri klase tržišnog pravca:
 
-- `bullish` — pozitivan sentiment;
-- `bearish` — negativan sentiment;
-- `neutral` — neutralan sentiment.
+- `bullish` — glasovi korisnika ukazuju na pozitivan tržišni pravac;
+- `bearish` — glasovi korisnika ukazuju na negativan tržišni pravac;
+- `neutral` — glasovi korisnika ukazuju na neutralan tržišni pravac.
 
 ## Struktura projekta
 
