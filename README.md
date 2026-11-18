@@ -31,6 +31,6 @@ Skripte koriste relativne putanje, pa ih treba pokretati iz foldera `diplomski`.
 
 ## Preuzimanje modela
 
-Dva najbolja modela su sacuvana i nalaze se na ovoj [`Google Cloud Storage lokaciji`](https://drive.google.com/file/d/1palVGtMGHHrUg7jdUY9K-uJG2CKGmFMz/view?usp=drive_link)
+Dva najbolja modela su sacuvana i nalaze se na ovoj [`Google Drive lokaciji`](https://drive.google.com/file/d/1palVGtMGHHrUg7jdUY9K-uJG2CKGmFMz/view?usp=drive_link)
 
 Nakon preuzimanja, zeljeni model treba smjestiti u folder `models/`.
